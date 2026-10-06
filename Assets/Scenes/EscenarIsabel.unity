@@ -132,7 +132,7 @@ GameObject:
   - component: {fileID: 330185657}
   - component: {fileID: 330185656}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: morado/azulado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -468,7 +468,7 @@ GameObject:
   - component: {fileID: 598860318}
   - component: {fileID: 598860317}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: cian
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -692,7 +692,7 @@ GameObject:
   - component: {fileID: 935953880}
   - component: {fileID: 935953879}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: amarillo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 1067692773}
   - component: {fileID: 1067692772}
   m_Layer: 5
-  m_Name: Button
+  m_Name: rojo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1038,6 +1038,7 @@ GameObject:
   - component: {fileID: 1340159595}
   - component: {fileID: 1340159594}
   - component: {fileID: 1340159593}
+  - component: {fileID: 1340159597}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1129,6 +1130,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1340159597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340159592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed026955789d074e8d5da50915942ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenerarSecuencia
+  botones:
+  - {fileID: 1067692772}
+  - {fileID: 330185656}
+  - {fileID: 1429869841}
+  - {fileID: 935953879}
+  - {fileID: 598860317}
+  secuencia: 00000000000000000000000000000000000000000000000000000000000000000000000000000000i
+  indiceActual: 0
+  puedeJugar: 0
 --- !u!1 &1429869839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1142,7 +1164,7 @@ GameObject:
   - component: {fileID: 1429869842}
   - component: {fileID: 1429869841}
   m_Layer: 5
-  m_Name: Button
+  m_Name: rosa
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
