@@ -20,7 +20,7 @@ public class GenerarSecuencia : MonoBehaviour
         
     }
 
-    IEnumerator CrearSecuencia()
+    public IEnumerator CrearSecuencia()
     {
         puedeJugar = false;
         yield return new WaitForSeconds(1f);
