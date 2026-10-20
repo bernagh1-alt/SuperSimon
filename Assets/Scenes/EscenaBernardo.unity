@@ -131,8 +131,9 @@ GameObject:
   - component: {fileID: 330185658}
   - component: {fileID: 330185657}
   - component: {fileID: 330185656}
+  - component: {fileID: 330185659}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: Button1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -200,7 +201,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 330185657}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 330185659}
+        m_TargetAssemblyTypeName: boton, Assembly-CSharp
+        m_MethodName: PulsarBoton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &330185657
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -239,6 +252,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330185654}
   m_CullTransparentMesh: 1
+--- !u!114 &330185659
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 330185654}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e23dc0859d9754799f3b5623db9370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::boton
+  gameManager: {fileID: 1828968486}
 --- !u!1 &404454095
 GameObject:
   m_ObjectHideFlags: 0
@@ -467,8 +493,9 @@ GameObject:
   - component: {fileID: 598860319}
   - component: {fileID: 598860318}
   - component: {fileID: 598860317}
+  - component: {fileID: 598860320}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: Button4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -536,7 +563,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 598860318}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 598860320}
+        m_TargetAssemblyTypeName: boton, Assembly-CSharp
+        m_MethodName: PulsarBoton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &598860318
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -575,6 +614,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 598860315}
   m_CullTransparentMesh: 1
+--- !u!114 &598860320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 598860315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e23dc0859d9754799f3b5623db9370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::boton
+  gameManager: {fileID: 1828968486}
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -691,8 +743,9 @@ GameObject:
   - component: {fileID: 935953881}
   - component: {fileID: 935953880}
   - component: {fileID: 935953879}
+  - component: {fileID: 935953882}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: Button3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -760,7 +813,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 935953880}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 935953882}
+        m_TargetAssemblyTypeName: boton, Assembly-CSharp
+        m_MethodName: PulsarBoton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &935953880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -799,6 +864,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 935953877}
   m_CullTransparentMesh: 1
+--- !u!114 &935953882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 935953877}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e23dc0859d9754799f3b5623db9370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::boton
+  gameManager: {fileID: 1828968486}
 --- !u!1 &1067692770
 GameObject:
   m_ObjectHideFlags: 0
@@ -811,8 +889,9 @@ GameObject:
   - component: {fileID: 1067692774}
   - component: {fileID: 1067692773}
   - component: {fileID: 1067692772}
+  - component: {fileID: 1067692775}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -881,13 +960,13 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1067692770}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: 
-        m_Mode: 1
+      - m_Target: {fileID: 1067692775}
+        m_TargetAssemblyTypeName: boton, Assembly-CSharp
+        m_MethodName: PulsarBoton
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: 
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -931,6 +1010,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1067692770}
   m_CullTransparentMesh: 1
+--- !u!114 &1067692775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1067692770}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e23dc0859d9754799f3b5623db9370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::boton
+  gameManager: {fileID: 1828968486}
 --- !u!1 &1153400814
 GameObject:
   m_ObjectHideFlags: 0
@@ -941,7 +1033,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1153400815}
   - component: {fileID: 1153400818}
-  - component: {fileID: 1153400817}
   - component: {fileID: 1153400816}
   m_Layer: 5
   m_Name: Panel
@@ -1000,36 +1091,6 @@ MonoBehaviour:
   m_ChildScaleWidth: 1
   m_ChildScaleHeight: 1
   m_ReverseArrangement: 0
---- !u!114 &1153400817
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1153400814}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
 --- !u!222 &1153400818
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1050,6 +1111,7 @@ GameObject:
   - component: {fileID: 1340159595}
   - component: {fileID: 1340159594}
   - component: {fileID: 1340159593}
+  - component: {fileID: 1340159597}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1141,6 +1203,27 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1340159597
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1340159592}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ed026955789d074e8d5da50915942ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GenerarSecuencia
+  botones:
+  - {fileID: 1067692772}
+  - {fileID: 330185656}
+  - {fileID: 1429869841}
+  - {fileID: 935953879}
+  - {fileID: 598860317}
+  secuencia: 00000000000000000000000000000000000000000000000000000000000000000000000000000000i
+  indiceActual: 0
+  puedeJugar: 0
 --- !u!1 &1429869839
 GameObject:
   m_ObjectHideFlags: 0
@@ -1153,8 +1236,9 @@ GameObject:
   - component: {fileID: 1429869843}
   - component: {fileID: 1429869842}
   - component: {fileID: 1429869841}
+  - component: {fileID: 1429869844}
   m_Layer: 5
-  m_Name: Button
+  m_Name: Button2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1222,7 +1306,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1429869842}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1429869844}
+        m_TargetAssemblyTypeName: boton, Assembly-CSharp
+        m_MethodName: PulsarBoton
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1429869842
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1261,6 +1357,66 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1429869839}
   m_CullTransparentMesh: 1
+--- !u!114 &1429869844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1429869839}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e23dc0859d9754799f3b5623db9370, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::boton
+  gameManager: {fileID: 1828968486}
+--- !u!1 &1828968485
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1828968487}
+  - component: {fileID: 1828968486}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1828968486
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828968485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93862b6e845c184438caef66636ecabe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  secuenciaJugador: 00000000000000000000000000000000000000000000000000000000000000000000000000000000i
+  indiceActualJugador: 0
+  generarSecuencia: {fileID: 1340159597}
+--- !u!4 &1828968487
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1828968485}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 217.587, y: 788.0502, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -1269,3 +1425,4 @@ SceneRoots:
   - {fileID: 619394802}
   - {fileID: 404454098}
   - {fileID: 1340159596}
+  - {fileID: 1828968487}

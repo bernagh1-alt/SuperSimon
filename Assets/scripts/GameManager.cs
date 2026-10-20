@@ -27,6 +27,7 @@ public class GameManager : MonoBehaviour
         if (generarSecuencia.secuencia[indiceActualJugador] != secuenciaJugador[indiceActualJugador])
         {
             Debug.Log("Game Over");
+            return;
         }
         else
         {
