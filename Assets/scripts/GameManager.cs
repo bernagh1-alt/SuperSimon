@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
@@ -26,7 +27,7 @@ public class GameManager : MonoBehaviour
 
         if (generarSecuencia.secuencia[indiceActualJugador] != secuenciaJugador[indiceActualJugador])
         {
-            Debug.Log("Game Over");
+            SceneManager.LoadScene("Creditos");
             return;
         }
         else
@@ -37,7 +38,7 @@ public class GameManager : MonoBehaviour
         {
             if (indiceActualJugador == secuenciaJugador.Length)
             {
-                Debug.Log("He Ganado");
+                Debug.Log("Has Ganado");
                 return;
             }
             StartCoroutine(generarSecuencia.CrearSecuencia());

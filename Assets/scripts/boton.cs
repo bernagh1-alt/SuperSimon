@@ -17,7 +17,7 @@ public class boton : MonoBehaviour
 
     public void PulsarBoton(int boton)
     {
-        Debug.Log("hola");
+        
         gameManager.ComprobarSecuencia(boton);
     }
 }
